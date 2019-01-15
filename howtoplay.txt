@@ -1,0 +1,10 @@
+
+
+- Use       "W"       to move the player
+        "A" "S" "D"
+
+- Use console to buy items or perform actions in game
+
+- Press 'I' to display inventory, use 'w''s''a''d' to exit
+
+- Press 'x' to quit the game
