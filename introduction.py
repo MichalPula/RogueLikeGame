@@ -34,5 +34,7 @@ def hero_creation():
     display_screen('intro.txt')
     appearance = input('Select your hero: @, # or & ')
     for symbol in hero:
-        if symbol in appearance:
+        if symbol is appearance:
             return symbol
+
+

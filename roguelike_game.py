@@ -2,25 +2,8 @@ import os
 import interaction
 import csv
 import inventory
-import introduction
-
-
-def gamemap(room):
-    
-    for i in range(len(room)):
-        print("".join(room[i]))
-
-
-def player_pos(room, stuff, pos):
-
-    for i in range(len(room)):
-        if stuff['player'] in room[i]:
-            x_axis = i
-            y_axis = room[i].index(stuff['player'])
-
-            del pos[:]
-            pos.append(x_axis)
-            pos.append(y_axis)
+import introduction 
+                    
 
 
 def main():
